@@ -1,0 +1,6 @@
+unique_name: wh-connection
+object_type: connection
+label: wh-connection
+as_connection: snowflake
+database: snowflake_sample_data
+schema: tpcds_10tb
