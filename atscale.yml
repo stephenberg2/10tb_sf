@@ -1,0 +1,6 @@
+unique_name: 10TB SF
+object_type: catalog
+label: 10TB SF
+as_version: 1.0
+aggressive_agg_promotion: false
+build_speculative_aggs: false
