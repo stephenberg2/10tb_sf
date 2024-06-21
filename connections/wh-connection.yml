@@ -3,4 +3,4 @@ object_type: connection
 label: wh-connection
 as_connection: snowflake
 database: SE_DEMO_LIBRARY
-schema: tpcds_10tb
+schema: tpcds10tb
