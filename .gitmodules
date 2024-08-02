@@ -1,4 +1,0 @@
-[submodule "hub-10tb"]
-	path = hub-10tb
-	url = https://github.com/stephenberg2/hub-10tb.git
-	branch = production
