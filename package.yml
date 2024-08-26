@@ -3,4 +3,4 @@ packages:
     - name: shared
       url: https://github.com/stephenberg2/hub-10tb
       branch: production
-      version: 'commit:c04da912f490cfa65c18eecef5ac4a7604215579'
+      version: 'commit:63780adfd3bf75609dd50efbd46453c0645a2e8c'

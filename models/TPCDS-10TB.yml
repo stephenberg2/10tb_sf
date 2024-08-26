@@ -50,6 +50,26 @@ metrics:
     folder: web sales metrics
   - unique_name: store sales price
     folder: store sales metrics
+  - unique_name: average store unit net profit
+    folder: store sales metrics
+  - unique_name: average web unit net profit
+    folder: web sales metrics
+  - unique_name: customer count
+    folder: total sales metrics
+  - unique_name: quantity sold ly
+    folder: store sales metrics
+  - unique_name: store and web purchased amount
+    folder: total sales metrics
+  - unique_name: store revenue ratio by product class
+    folder: store sales metrics
+  - unique_name: store sales increase
+    folder: store sales metrics
+  - unique_name: total net profit
+    folder: total sales metrics
+  - unique_name: total quantity sold ytd
+    folder: total sales metrics
+  - unique_name: total quantity sold
+    folder: total sales metrics
 relationships:
   - unique_name: web_sales_ws_ship_customer_sk_to_customer dimension_customer number
     from:
