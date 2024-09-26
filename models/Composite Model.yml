@@ -1,0 +1,9 @@
+unique_name: Composite Model
+object_type: composite_model
+label: Composite Model
+models: 
+  - Store Sales
+  - Web Sales
+metric_calc: 
+  - unique_name: total net profit2
+    folder: total sales metrics

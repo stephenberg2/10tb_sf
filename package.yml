@@ -1,6 +1,6 @@
 version: 1
 packages:
-  - version: commit:2d20a71d582a1a1cdc2c74fa39241c8dd828c216
+  - version: commit:a749d188556bf15efe58721d0128398fba918a54
     name: shared
     url: https://github.com/stephenberg2/hub-10tb
     branch: production
