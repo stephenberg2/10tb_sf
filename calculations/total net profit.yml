@@ -1,6 +1,6 @@
-unique_name: total net profit2
+unique_name: total net profit
 object_type: metric_calc
-label: Total net profit
+label: total net profit
 expression: '[Measures].[store net profit] + [Measures].[web net profit]'
 format: general number
 is_hidden: false
