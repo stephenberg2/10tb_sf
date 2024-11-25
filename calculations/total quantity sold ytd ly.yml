@@ -1,0 +1,11 @@
+unique_name: total quantity sold ytd ly
+object_type: metric_calc
+label: total quantity sold ytd ly
+expression: >-
+    (parallelperiod(
+    [sold date dimension].[sold date month hierarchy].[sold year]
+    ,1
+    ,[sold date dimension].[sold date month hierarchy].CurrentMember)
+    ,[Measures].[total quantity sold ytd]
+    )
+is_hidden: false

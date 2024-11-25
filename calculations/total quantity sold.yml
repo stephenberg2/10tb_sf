@@ -3,3 +3,4 @@ object_type: metric_calc
 label: total quantity sold
 expression: '[Measures].[store quantity sold] + [Measures].[web quantity sold]'
 is_hidden: false
+mdx_aggregate_function: SUM
