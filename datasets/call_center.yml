@@ -1,0 +1,68 @@
+unique_name: call_center
+object_type: dataset
+label: call_center
+columns:
+  - name: cc_call_center_sk
+    data_type: decimal(38,0)
+  - name: cc_call_center_id
+    data_type: string
+  - name: cc_rec_start_date
+    data_type: date
+  - name: cc_rec_end_date
+    data_type: date
+  - name: cc_closed_date_sk
+    data_type: decimal(38,0)
+  - name: cc_open_date_sk
+    data_type: decimal(38,0)
+  - name: cc_name
+    data_type: string
+  - name: cc_class
+    data_type: string
+  - name: cc_employees
+    data_type: decimal(38,0)
+  - name: cc_sq_ft
+    data_type: decimal(38,0)
+  - name: cc_hours
+    data_type: string
+  - name: cc_manager
+    data_type: string
+  - name: cc_mkt_id
+    data_type: decimal(38,0)
+  - name: cc_mkt_class
+    data_type: string
+  - name: cc_mkt_desc
+    data_type: string
+  - name: cc_market_manager
+    data_type: string
+  - name: cc_division
+    data_type: decimal(38,0)
+  - name: cc_division_name
+    data_type: string
+  - name: cc_company
+    data_type: decimal(38,0)
+  - name: cc_company_name
+    data_type: string
+  - name: cc_street_number
+    data_type: string
+  - name: cc_street_name
+    data_type: string
+  - name: cc_street_type
+    data_type: string
+  - name: cc_suite_number
+    data_type: string
+  - name: cc_city
+    data_type: string
+  - name: cc_county
+    data_type: string
+  - name: cc_state
+    data_type: string
+  - name: cc_zip
+    data_type: string
+  - name: cc_country
+    data_type: string
+  - name: cc_gmt_offset
+    data_type: decimal(5,2)
+  - name: cc_tax_percentage
+    data_type: decimal(5,2)
+connection_id: wh-connection
+table: call_center

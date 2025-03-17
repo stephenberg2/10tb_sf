@@ -15,3 +15,5 @@ metrics:
       folder: total sales metrics
     - unique_name: total quantity sold
       folder: total sales metrics
+    - unique_name: total quantity sold ytd ly
+      folder: total sales metrics
